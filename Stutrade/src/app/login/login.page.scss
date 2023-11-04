@@ -11,9 +11,22 @@ ion-content,ion-item{
 .margin-top{
   margin-top:100px;
 }
-.btn-color{
-  --background-color: white;
-}
+
 ion-button{
   --color: white;
+  --background: white;
+  color: black;
+}
+
+a{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+ion-icon{
+  color: black;
 }

@@ -36,6 +36,11 @@ const routes: Routes = [
         loadChildren: () => import('../uploaded-book/uploaded-book.module').then(m => m.UploadedBookPageModule)
       },
       {
+        path: 'book',
+        loadChildren: () => import('../book/book.module').then(m => m.BookPageModule)
+      },
+
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

@@ -18,39 +18,16 @@ ion-card{
 .icon-color{
   color: #4B6B54;
 }
-.mt{
-  margin-top: 8px;
-}
-ion-content {
-  --background-image: ('../../assets/img/Group_1.png');
-  background-size: cover;
-  background-position: center;
-}
 
-.transparent-background {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  text-align: center;
-}
-
-.icon {
-  font-size: 4em;
-  color: #ff5733;
-}
-
-.text {
-  font-size: 1.5em;
-  color: #333;
-}
 .card {
   display: inline-block;
-  width: 45%; /* Juster bredden efter dine behov */
-  margin: 10px;
+  width: 100%;
 }
 
 ion-card-content {
   text-align: center;
-
+  padding: 0;
+  color: #4B6B54;
 }
 
 ion-card-content ion-img {
@@ -58,37 +35,39 @@ ion-card-content ion-img {
   margin: 0 auto;
 }
 
-ion-icon {
-  font-size: 1.5em;
-  color: gold;
-}
+
 ion-card-content ion-img {
   max-height: 100%;
   width: auto;
   height: auto;
   aspect-ratio: 1 / 1;
-  margin: 0 auto;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20px 20px;
   --background: ;
 }
 ion-card{
   --background: ;
   --border-style: none;
+  box-shadow: none;
 }
 
 .icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 80%;
   transform: translate(-50%, -50%);
   font-size: 1.5em;
-  color: gold;
+  color: red;
 }
 
 .text-card{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 70%;
   transform: translate(-50%, -50%);
+  color: #6284FF;
+  background-color: #D9D9D9;
+  width: 50%;
+  border-radius: 20px;
 }
+

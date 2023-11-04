@@ -4,25 +4,12 @@
 <ion-content [fullscreen]="true">
   <ion-grid class="ion-margin">
     <ion-row>
-      <ion-col>
-        <ion-icon name="checkmark-circle" size="large"></ion-icon>
-      </ion-col>
-      <ion-col>
-        <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
-      </ion-col>
-      <ion-col>
-        <ion-icon name="checkmark-circle" size="large"></ion-icon>
-      </ion-col>
-      <ion-col>
-        <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
-      </ion-col>
-      <ion-col>
-        <ion-icon name="checkmark-circle" size="large"></ion-icon>
+      <ion-col class="ion-flex">
+        <ion-icon name="chatbox-outline" size="large"></ion-icon>
       </ion-col>
     </ion-row>
   </ion-grid>
 
-  <p>Now your book is uploaded</p>
 
   <ion-item class="ion-margin">
     <ion-avatar slot="start">
@@ -47,7 +34,7 @@
     <ion-icon name="ellipsis-horizontal-outline" size="large">
     </ion-icon>
   </ion-col>
-  <ion-textarea placeholder="Text" [autoGrow]="true"></ion-textarea>
+  <ion-textarea [readonly]="true" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus sem, auctor accumsan egestas sed, venenatis at ex. Nam consequat ex scipit rhoncus orci dictum eget. Aenean sit amet ligula varius felis facilisis lacinia nec volutpat nulla. Duis ullamcorper sit amet turpis sed blandit. Integer pretium massa eu faucibus interdum."></ion-textarea>
   <ion-grid class="d-flex">
     <ion-row>
       <ion-col>
@@ -62,4 +49,25 @@
     <ion-button>Can Send</ion-button>
   </ion-col>
 
+
+    <ion-button id="open-modal" expand="block">Contact Seller</ion-button>
+    <ion-modal #modal trigger="open-modal">
+      <ng-template>
+        <ion-content>
+          <ion-toolbar>
+            <ion-title>Message</ion-title>
+            <ion-buttons slot="end">
+              <ion-button (click)="modal.dismiss()">Close</ion-button>
+            </ion-buttons>
+          </ion-toolbar>
+          <ion-textarea
+            placeholder="Write your message here"
+            [clearOnEdit]="true"
+          ></ion-textarea>
+        </ion-content>
+      </ng-template>
+    </ion-modal>
+
+
 </ion-content>
+
