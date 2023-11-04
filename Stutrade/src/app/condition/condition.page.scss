@@ -1,0 +1,79 @@
+ion-content{
+  --background:#E1DEFB;
+}
+h2{
+  text-align: center;
+  margin-top: 30px;
+  color:#4B6B54 ;
+}
+
+ion-button{
+  --border-radius: 20px;
+  --background: white;
+  color: black;
+  text-align: center;
+}
+
+.condition{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.Price{
+  display: flex;
+  height: 44px;
+}
+
+.Price ion-input{
+  margin-left: 20px;
+  height: 29px;
+  width: 197px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.Price ion-button{
+  height: 44px;
+  margin: auto;
+  padding: 0;
+
+}
+
+.Delivery{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Delivery ion-button{
+  width: 127px;
+  height: 44px;
+}
+
+ion-textarea{
+  background-color: white;
+  color: black;
+  height: 136px;
+  width: 300px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  float: right;
+  font-size: 20px;
+  text-decoration: none;
+  color:#4B6B54;
+}
+ion-icon{
+  color:#4B6B54;
+}

@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-icon  name="globe-outline" color="primary" ></ion-icon><p class="text-color ion-margin-start">English</p>
+    <ion-icon name="information-circle" slot="end" color="primary"></ion-icon>
+  </ion-item>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-img class="margin-top" src="assets/img/StuTrade-logo.png">
+        </ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-col class="ion-text-center ion-margin text-color" >
+      <p>
+        Trade your knowledge, Sell your<br> books, fund someone's education.
+      </p>
+    </ion-col>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-col>
+      <ion-button routerLink="../tabs/tab3" routerDirection="root"  color="light" expand="full" shape="round" >Continue with Google
+        <ion-icon slot="start" name="logo-google"></ion-icon>
+      </ion-button>
+    </ion-col>
+
+    <ion-col class="ion-justify-content-center">
+      <ion-button routerLink="" routerDirection="root" color="light" expand="full" shape="round" >Continue with Facebook
+        <ion-icon slot="start" name="logo-facebook"></ion-icon>
+      </ion-button>
+    </ion-col>
+    <ion-col class="text-color ion-text-center">
+      <a routerLink="">
+        Continue with email
+      </a>
+    </ion-col>
+  </ion-grid>
+
+</ion-content>

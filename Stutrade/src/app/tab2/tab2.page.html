@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-grid class="ion-margin">
+    <ion-row>
+      <ion-col>
+        <ion-icon name="camera-outline" size="large"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="create-outline" size="large"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon name="cash-outline" size="large"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <p>Upload picture by pressing the plus button</p>
+
+  <ion-button expand="block" fill="clear" shape="square">
+    <ion-icon name="add"></ion-icon>
+  </ion-button>
+
+  <p>This picture will be shown on browse</p>
+<ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="card-primary">
+          <img src="../../assets/shapes.svg" alt="">
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <img src="../../assets/shapes.svg" alt="">
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-card>
+    <img src="../../assets/shapes.svg" alt="">
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col >
+        <a class="d-flex" routerLink="/titel" routerDirection="root">Next
+          <ion-icon class="arrow" slot="end" name="arrow-forward-outline">
+          </ion-icon>
+        </a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

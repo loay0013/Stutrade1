@@ -1,0 +1,19 @@
+ion-content,ion-item{
+  background-color: white;
+  --background: url('../../assets/img/Group_1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  --border-style:none;
+}
+.text-color{
+  color: #0d0d0d;
+}
+.margin-top{
+  margin-top:100px;
+}
+.btn-color{
+  --background-color: white;
+}
+ion-button{
+  --color: white;
+}

@@ -1,0 +1,101 @@
+<ion-header>
+</ion-header>
+
+  <ion-content>
+    <ion-grid class="ion-margin">
+      <ion-row>
+        <ion-col>
+          <ion-icon name="checkmark-circle" size="large"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-icon name="checkmark-circle" size="large"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-icon name="cash-outline" size="large"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  <h2>Condition</h2>
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button fill="clear"  >
+            New
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear"  >
+            nearly new
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button fill="clear">
+            Good
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button  fill="clear">
+        OK
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+  <h2>Price</h2>
+  <div class="Price">
+
+    <ion-input type="text" placeholder="Price"></ion-input>
+    <ion-button expand="block" fill="clear" shape="square">
+      Bid
+    </ion-button>
+
+  </div>
+
+  <h2>Delivery</h2>
+  <div class="Delivery">
+    <ion-button expand="block" fill="clear" shape="square">
+      Can Send
+    </ion-button>
+
+    <ion-button expand="block" fill="clear" shape="square">
+      Can't Send
+    </ion-button>
+
+  </div>
+
+
+  <h2>Extra comment</h2>
+  <div class="Comment">
+    <ion-textarea placeholder="Text"></ion-textarea>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="d-flex">
+        <a class="d-flex" routerLink="/titel" routerDirection="root">Back
+          <ion-icon  slot="start" name="arrow-back-outline"></ion-icon>
+        </a>
+      </ion-col>
+      <ion-col>
+        <a  class="d-flex" routerLink="/uploaded-book" routerDirection="root">Upload
+          <ion-icon class="arrow" slot="end" name="arrow-forward-outline"></ion-icon>
+        </a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+

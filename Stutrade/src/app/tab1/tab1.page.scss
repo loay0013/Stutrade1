@@ -1,0 +1,94 @@
+ion-content{
+  --background:#E1DEFB;
+}
+ion-searchbar{
+  --background: #ffffff;
+  --border-radius: 20px;
+}
+ion-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ion-card{
+  border-radius: 20px;
+
+}
+.icon-color{
+  color: #4B6B54;
+}
+.mt{
+  margin-top: 8px;
+}
+ion-content {
+  --background-image: ('../../assets/img/Group_1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.transparent-background {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 4em;
+  color: #ff5733;
+}
+
+.text {
+  font-size: 1.5em;
+  color: #333;
+}
+.card {
+  display: inline-block;
+  width: 45%; /* Juster bredden efter dine behov */
+  margin: 10px;
+}
+
+ion-card-content {
+  text-align: center;
+
+}
+
+ion-card-content ion-img {
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+ion-icon {
+  font-size: 1.5em;
+  color: gold;
+}
+ion-card-content ion-img {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 50%;
+  --background: ;
+}
+ion-card{
+  --background: ;
+  --border-style: none;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  color: gold;
+}
+
+.text-card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

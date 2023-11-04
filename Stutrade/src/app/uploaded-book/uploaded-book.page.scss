@@ -1,0 +1,46 @@
+ion-content{
+  --background:#E1DEFB;
+}
+p{
+  text-align: center;
+  color: #4B6B54;
+}
+h1{
+  text-align: center;
+  color: #6284FF;
+}
+ion-icon{
+  color:#4B6B54 ;
+}
+ion-item{
+  --background: ;
+  --border-style:none;
+}
+ion-textarea {
+  height: 136px;
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  color: #1e1e1e;
+  border-radius: 20px;
+  padding: 0px 10px 10px 10px
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+ion-button{
+  --background:#D5C6C6;
+  --border-radius:20px;
+  color: #4B6B54;
+}
+.w-h{
+  width: 235px;
+  height: 235px;
+}
+.obj-c{
+  object-fit: cover;
+}
+.text-color{
+  color:#4B6B54 ;
+}
