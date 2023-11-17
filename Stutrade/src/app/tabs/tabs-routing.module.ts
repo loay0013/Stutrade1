@@ -39,6 +39,10 @@ const routes: Routes = [
         path: 'book',
         loadChildren: () => import('../book/book.module').then(m => m.BookPageModule)
       },
+      {
+        path: 'admin',
+        loadChildren: () => import('../admin/admin.module').then(m => m.AdminPageModule)
+      },
 
       {
         path: '',

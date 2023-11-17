@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>admin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <h2>Tilføj/Rediger Bog</h2>
+    <form (ngSubmit)="addOrUpdatebook()">
+      <label>Bog Navn:</label>
+      <input [(ngModel)]="book.bookName" name="bookName" required>
+
+      <label>Bog Beskrivelse:</label>
+      <input [(ngModel)]="book.bookDescription" name="bookDescription" required>
+
+      <button type="submit">{{ isEditing ? 'Opdater' : 'Tilføj' }}</button>
+      <button type="button" (click)="cancelEdit()" *ngIf="isEditing">Annuller</button>
+    </form>
+  </div>
+
+  <div>
+    <h2>Bog Liste</h2>
+    <ul>
+      <li *ngFor="let bookItem of books">
+        {{ bookItem.bookName }} - {{ bookItem.bookDescription }}
+        <button (click)="editbook(bookItem.bookID)">Rediger</button>
+        <button (click)="deletebook(bookItem.bookID)">Slet</button>
+      </li>
+    </ul>
+  </div>
+</ion-content>
